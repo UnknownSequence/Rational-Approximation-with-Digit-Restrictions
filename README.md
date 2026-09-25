@@ -1,7 +1,16 @@
 # Rational Approximation with Digit Restrictions
 
-This is a Lean 4 + mathlib project for the theorem labelled `main1` in
-*Rational Approximation with digit-restricted denominators*.
+This Lean 4 + mathlib project formalizes the proof of Theorem 1.1 in
+[*Rational Approximation with digit-restricted denominators*](Rational_Approximation_Oxford.pdf).
+In the Lean source, the theorem is named `DigitRestricted.main1`.
+
+The digit-restricted set of denominators is defined by
+
+![Definition of the digit-restricted set D_b](Db_definition.png)
+
+and the formalized result is
+
+![Statement of Theorem 1.1](Theorem_1_1.png)
 
 ## Assumption
 
